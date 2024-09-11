@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\NineChronicles.Node\NineChronicles.Node.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <AssemblyName>9c-node</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+</Project>

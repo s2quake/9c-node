@@ -1,0 +1,8 @@
+[submodule ".submodules/libplanet"]
+	path = .submodules/libplanet
+	url = https://github.com/planetarium/libplanet.git
+	branch = exp/sdk/node
+[submodule ".submodules/lib9c"]
+	path = .submodules/lib9c
+	url = https://github.com/planetarium/lib9c.git
+	branch = development

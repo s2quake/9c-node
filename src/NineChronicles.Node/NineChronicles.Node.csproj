@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\.submodules\libplanet\sdk\node\Libplanet.Node\Libplanet.Node.csproj" />
+    <ProjectReference Include="..\..\.submodules\libplanet\sdk\node\Libplanet.Node.Extensions\Libplanet.Node.Extensions.csproj" />
+    <ProjectReference Include="..\..\.submodules\lib9c\Lib9c\Lib9c.csproj" />
+  </ItemGroup>
+
+</Project>
