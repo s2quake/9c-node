@@ -6,3 +6,6 @@
 	path = .submodules/lib9c
 	url = https://github.com/planetarium/lib9c.git
 	branch = development
+[submodule ".submodules/9c.rpc.shared"]
+	path = .submodules/9c.rpc.shared
+	url = https://github.com/planetarium/NineChronicles.RPC.Shared.git

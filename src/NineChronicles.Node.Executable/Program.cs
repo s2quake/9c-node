@@ -1,5 +1,6 @@
 ﻿using Libplanet.Node.Extensions;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
+using NineChronicles.Node.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Logging.AddConsole();
@@ -19,6 +20,7 @@ if (builder.Environment.IsDevelopment())
 
 builder.Services.AddGrpc();
 builder.Services.AddLibplanetNode(builder.Configuration);
+builder.Services.AddNineChroniclesNode(builder.Configuration);
 
 var handlerMessage = """
     Communication with gRPC endpoints must be made through a gRPC client. To learn how to

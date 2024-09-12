@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Libplanet.Store", ".submodu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Libplanet.Net", ".submodules\libplanet\src\Libplanet.Net\Libplanet.Net.csproj", "{A357FFF3-2E6F-44AD-8359-672696968347}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NineChronicles.Node.Extensions", "src\NineChronicles.Node.Extensions\NineChronicles.Node.Extensions.csproj", "{1D898B21-BBEE-41F9-B6A5-7F0E557BABF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{A357FFF3-2E6F-44AD-8359-672696968347}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A357FFF3-2E6F-44AD-8359-672696968347}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A357FFF3-2E6F-44AD-8359-672696968347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D898B21-BBEE-41F9-B6A5-7F0E557BABF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D898B21-BBEE-41F9-B6A5-7F0E557BABF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D898B21-BBEE-41F9-B6A5-7F0E557BABF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D898B21-BBEE-41F9-B6A5-7F0E557BABF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,6 +130,7 @@ Global
 		{C54A2EB5-C9E5-4943-BB31-D97C326064AC} = {D880A6CC-BAE3-4BBB-8D50-50EA189F92BE}
 		{B57FE55C-1230-4CFC-B5E1-C298DFC7A6D3} = {D880A6CC-BAE3-4BBB-8D50-50EA189F92BE}
 		{A357FFF3-2E6F-44AD-8359-672696968347} = {D880A6CC-BAE3-4BBB-8D50-50EA189F92BE}
+		{1D898B21-BBEE-41F9-B6A5-7F0E557BABF8} = {7F0272D9-1A61-49F0-85BB-CCFDD6454BCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97A8D67A-36C8-446B-9CEF-FA245191D876}

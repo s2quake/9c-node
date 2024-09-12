@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NineChronicles.Node\NineChronicles.Node.csproj" />
+    <ProjectReference Include="..\NineChronicles.Node.Extensions\NineChronicles.Node.Extensions.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
